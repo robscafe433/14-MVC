@@ -1,0 +1,25 @@
+<!-- views/homepage.handlebars -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/dashboard">Dashboard</a>
+    {{#if user}}
+      <a href="/logout">Logout</a>
+    {{else}}
+      <a href="/login">Login</a>
+    {{/if}}
+  </nav>
+  <h1>Blog Posts</h1>
+  {{#each posts}}
+    <div>
+      <h2>{{this.title}}</h2>
+      <p>{{this.content}}</p>
+    </div>
+  {{/each}}
+</body>
+</html>
