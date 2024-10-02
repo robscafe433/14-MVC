@@ -1,12 +1,12 @@
 
-******** Adding this line to test GH connections on new computer. **********
+
 # Tech Blog
 
-## Blog Site
+## Blog Site latest
 
 
 The motivation for this project was to practice making and connecting routes using
-MVC paradigm. 
+MVC paradigm. Great practice.
 
 I learned how implementing the use of the following functions:
 
